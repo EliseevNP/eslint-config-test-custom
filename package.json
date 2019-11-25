@@ -16,7 +16,8 @@
     "url": "https://github.com/EliseevNP/eslint-config-test-custom/issues"
   },
   "homepage": "https://github.com/EliseevNP/eslint-config-test-custom#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "eslint": "^6.7.1",
     "eslint-config-airbnb-base": "^14.0.0"
   }
