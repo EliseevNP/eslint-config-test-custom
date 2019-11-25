@@ -10,10 +10,10 @@ module.exports = {
   plugins: [
     'jest',
   ],
-  // parserOptions: {
-  //   ecmaVersion: 2018,
-  //   sourceType: module,
-  // },
+  parserOptions: {
+    ecmaVersion: 2018,
+    // sourceType: module,
+  },
   rules: {
     'no-multiple-empty-lines': ['error', { max: 1 }],
     'no-console': 'off',
