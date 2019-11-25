@@ -12,7 +12,7 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 2018,
-    // sourceType: module,
+    sourceType: 'module',
   },
   rules: {
     'no-multiple-empty-lines': ['error', { max: 1 }],
