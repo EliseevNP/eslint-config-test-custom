@@ -19,5 +19,10 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^23.0.4"
   },
-  "devDependencies": {}
+  "keywords": [
+    "eslint",
+    "config",
+    "stylecode",
+    "airbnb"
+  ]
 }
