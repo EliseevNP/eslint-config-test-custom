@@ -16,11 +16,24 @@ module.exports = {
   },
   rules: {
     'no-multiple-empty-lines': ['error', { max: 1 }],
+    'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
+    'no-param-reassign': ['error', {
+      props: true,
+      ignorePropertyModificationsFor: ['accum'],
+    }],
+    'no-restricted-syntax': [
+      'off',
+      {
+        selector: 'ForOfStatement',
+        message: 'iterators/generators require regenerator-runtime, which is too heavyweight for this guide to allow them. Separately, loops should be avoided in favor of array iterations.',
+      },
+    ],
+    'no-await-in-loop': 'warn',
     'no-console': 'off',
     'camelcase': 'off',
-    'no-await-in-loop': 1,
     'import/prefer-default-export': 'off',
     'class-methods-use-this': 'off',
+    'implicit-arrow-linebreak': 'off',
   },
   globals: {
     before: true,
